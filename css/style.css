@@ -23,7 +23,11 @@ nav {
 
 
 }
-
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-weight: 600;
+    font-size: 22px;
+}
 /* buttons */
 
 .primary-btn {

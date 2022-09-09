@@ -617,9 +617,8 @@ footer a:hover i {
 }
 
 
-/* @media(min-width:200px) {
-    header .content .primary-btn {
-        display: block;
-        margin-top: 20px;
+@media(max-width:460px) {
+    header .content {
+        padding: 40px 0;
     }
-} */
+}

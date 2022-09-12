@@ -396,8 +396,8 @@ ul {
 
 .portfolio .itemBox {
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     margin: 5px;
     display: block;
     transition: .7s ease all;
@@ -411,8 +411,8 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
 }
 
@@ -420,8 +420,8 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     z-index: 1000;
     background-image: linear-gradient(90deg, #33b7e2, #5e62b0, #dc307c);
     transition: .3s ease all;

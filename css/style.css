@@ -5,8 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+html,body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 #progress{
     position: fixed;

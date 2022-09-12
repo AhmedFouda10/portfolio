@@ -5,7 +5,41 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+#progress{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 70px;
+    width: 70px;
+    background-image: linear-gradient(86deg, #33b7e2, #5e62b0, #dc307c);
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+#progress-value{
+    display: block;
+    height: 90%;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}
+#progress-value i{
+    background: linear-gradient(177deg, #dc307c, #5e62b0, #dc307c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 nav {
     background-image: linear-gradient(90deg, #33b7e2, #5e62b0, #dc307c);
 }

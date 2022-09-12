@@ -40,3 +40,24 @@ for (let i = 0; i < list.length; i++) {
 //         }
 //     })
 // });
+
+let calcScrollValue = () => {
+    let scrollProgress = document.getElementById("progress");
+    let progressValue = document.getElementById("progress-value");
+    let pos = document.documentElement.scrollTop;
+    let calHeight= document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let ScrollValue=Math.round((pos * 100) / calHeight);
+    console.log(ScrollValue);
+    if(pos>100){
+        scrollProgress.style.display= "grid";
+    }else{
+        scrollProgress.style.display= "none";
+    }
+    scrollProgress.addEventListener("click",() => {
+        document.documentElement.scrollTop = 0;
+    });
+    // scrollProgress.style.background= `conic-gradient 
+    // (#03cc65 ${scrollValue}% , #d7d7d7 ${scrollValue}%)`;
+};
+window.onscroll=calcScrollValue;
+window.onload=calcScrollValue;

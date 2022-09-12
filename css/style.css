@@ -401,6 +401,8 @@ ul {
     margin: 5px;
     display: block;
     transition: .7s ease all;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .portfolio .itemBox.hide {

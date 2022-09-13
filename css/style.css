@@ -92,6 +92,7 @@ nav {
     position: relative;
     z-index: 1;
     margin: 20px 0px 0px;
+    cursor:pointer;
 }
 
 .primary-btn:hover:before {

@@ -277,9 +277,6 @@ ul {
     font-weight: bold;
     letter-spacing: 1px;
     color: gray;
-    background: linear-gradient(177deg, #dc307c, #5e62b0, #dc307c);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .skills .content .bar .bar-line {
     background: #ebe9e9;

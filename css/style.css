@@ -451,15 +451,18 @@ ul {
 }
 
 .portfolio .itemBox img {
-    position: absolute;
-    top: 0;
-    left: 0;
     height: 300px;
     width: 300px;
     object-fit: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
-
-.portfolio .itemBox .cover {
+.portfolio .itemBox img:hover {
+    
+    background-position: bottom;
+    
+}
+/* .portfolio .itemBox .cover {
     position: absolute;
     top: 0;
     left: 0;
@@ -484,7 +487,7 @@ ul {
     transform: translate(-50%, -50%);
     font-size: 3rem;
     color: #fff;
-}
+} */
 
 
 /* forms */
